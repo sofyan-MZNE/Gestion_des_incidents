@@ -1,0 +1,8 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: chat-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/chat_db
